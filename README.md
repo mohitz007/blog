@@ -7,7 +7,6 @@ This project is a simple blogging platform that supports basic Create, Read, Upd
 - Create new blog posts.
 - View a list of all blog posts.
 - Update existing blog posts (authentication required).
-- Delete blog posts.
 - User authentication to restrict access to specific operations.
 
 ## Requirements
@@ -88,8 +87,8 @@ Visit the homepage (`/`) to see a list of all blog posts.
 
 ```plaintext
 simple-blog/
-├── blog/                # Blog app (CRUD functionality)
-├── simple_blog/         # Project settings
+├── common/                # Blog app (CRUD functionality)
+├── blog/                  # Project settings
 ├── templates/           # HTML templates
 ├── static/              # Static files (CSS, JS, images)
 ├── db.sqlite3           # SQLite database
